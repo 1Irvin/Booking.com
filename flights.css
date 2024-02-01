@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.headeritem:hover{
+  background-color:grey;
+}
+
+.headeritem:hover::before{
+    background-color: white;
+}
+
+.sign{
+   border: 10%;
+   border-color: black;
+   display:inline-flex;
+   flex-direction: row; 
+}
