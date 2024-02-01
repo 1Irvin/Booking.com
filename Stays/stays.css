@@ -24,6 +24,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .links, a{
@@ -43,16 +44,74 @@ button {
     border-radius: 0.3em;
 }
 
+.second {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    list-style: none;
+}
+.second :hover{
+    background-color: rgb(46, 129, 238);
+    border: 1px solid rgb(46, 129, 238);
+    border-radius: 1.5rem;
+}
+.second :active {
+    border: 1px solid white;
+    border-radius: 1.5rem;
+    background-color: rgb(1, 110, 253);
+}
+
 .second .stays{
     display: flex;
     flex-direction: row;
-    border: 2px solid white;
-    border-radius: 1.5rem;
-    width: 10%;
-    height: 140%;
+    /* border: 1px solid white;
+    border-radius: 1.5rem; */
+    padding: 0.4em 0.9em;
     align-items: center;
     justify-content: center;
-    gap: 0.1rem;
+    gap: 0.2rem;
     color: white;
-    font-size: 1.125rem;
+    font-size: 1.2rem;
+    
+}
+
+.second .flights {
+    display: flex;
+    flex-direction: row;
+    padding: 0.4em 0.9em;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    color: white;
+    font-size: 1.2rem;
+}
+.second .car-rentals {
+    display: flex;
+    flex-direction: row;
+    padding: 0.4em 0.9em;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    color: white;
+    font-size: 1.2rem;
+}
+.second .attractions{
+    display: flex;
+    flex-direction: row;
+    padding: 0.4em 0.9em;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    color: white;
+    font-size: 1.2rem;
+}
+.second .airport-taxi{
+    display: flex;
+    flex-direction: row;
+    padding: 0.4em 0.9em;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    color: white;
+    font-size: 1.2rem;
 }
