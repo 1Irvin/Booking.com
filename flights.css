@@ -1,6 +1,7 @@
 .header{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .headeritem:hover{
   background-color:grey;
@@ -13,6 +14,16 @@
 .sign{
    border: 10%;
    border-color: black;
-   display:inline-flex;
-   flex-direction: row; 
+   display: flex;
+   flex-direction: row;
+   
 }
+
+.menu{
+ max-width: 20%;
+ text-decoration-line: none;
+ justify-content: center;
+}
+
+/*.h1under:hover{
+}*/
