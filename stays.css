@@ -5,18 +5,20 @@ h1, p, ul{
 }
 body {
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
     
 }
 
 header {
     display:flex;
     flex-direction: column;
-    background-color: rgb(1, 110, 253); 
-    height: 700px;
+    background-color: rgb(4, 64, 143); 
+    height: 330px;
     align-items: center;
+    padding-top: 0.2rem;
 }
 .container{
-    min-width: 1000px;
+    min-width: 1100px;
 }
 .first {
     display: flex;
@@ -24,17 +26,21 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.2rem;
 }
 
 .links, a{
     display: flex;
     flex-direction: row;
-    gap: 0.75rem;
+    gap: 1.75rem;
     justify-content: center;
     align-items: center;
     color: white;
     text-decoration: none;
+}
+.links .uk {
+    width: 25px;
+    height: 25px;
 }
 
 button {
@@ -64,15 +70,16 @@ button {
 .links2 .stays{
     display: flex;
     flex-direction: row;
-    /* border: 1px solid white;
-    border-radius: 1.5rem; */
     padding: 0.4em 0.9em;
     align-items: center;
     justify-content: center;
     gap: 0.2rem;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     
+}
+.stays .word{
+    margin-left: -1.3rem;
 }
 
 .links2 .flights {
@@ -83,7 +90,7 @@ button {
     justify-content: center;
     gap: 0.2rem;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .links2 .car-rentals {
     display: flex;
@@ -93,7 +100,7 @@ button {
     justify-content: center;
     gap: 0.2rem;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .links2 .attractions{
     display: flex;
@@ -103,7 +110,7 @@ button {
     justify-content: center;
     gap: 0.2rem;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .links2 .airport-taxi{
     display: flex;
@@ -114,4 +121,45 @@ button {
     gap: 0.2rem;
     color: white;
     font-size: 1.2rem;
+}
+
+.third h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 4rem 0 0.25rem;
+    color: white;
+}
+.third p {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0.5rem 0;
+}
+.third .tab {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid orange;
+    border-radius: 0.5rem;
+    margin: 3rem 0;
+}
+.tab .sub-tab {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.3rem;
+    background-color: whitesmoke;
+    border:2px solid orange;
+    border-radius: 0.4rem;
+    height: 5vh;
+    width: 10vh;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+}
+.tab .search{
+    font-size: 1rem;
+    padding: 0.8em 1.5em;
+    background-color: rgb(14, 93, 196);
+    color: white;
+    border: 2px solid orange;
+    border-radius: 0.4rem;
 }
