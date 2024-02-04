@@ -4,6 +4,10 @@
     align-items: center;
     max-width: 20%;
 }
+
+.ul{
+  list-style:none ;
+}
 .headeritem:hover{
   background-color:grey;
 }
@@ -30,7 +34,9 @@
 }*/
 
 .menu:hover{
-  background-color: grey;
+  background-color:rgb(215, 209, 209);
 }
 
-.menu:hover::before
+.menu:hover::before{
+  background-color: white;
+}
