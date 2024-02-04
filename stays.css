@@ -251,3 +251,21 @@ main {
     color: grey;
     font-size: 0.9rem;
 }
+
+.property-type{
+    margin-top: 4.2rem;
+    display: block;
+}
+.property-type .property-images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 1.5rem 0 0.5rem;
+}
+.property-images img{
+    border-radius: 0.5rem;
+}
+.property-type .property-names{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-weight: bold;
+}
