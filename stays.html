@@ -6,27 +6,38 @@
     <meta name="author" content="Alvin M">
     <title>Booking.com|Practice Website</title>
     <link rel="stylesheet" href="stays.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://www.flaticon.com/free-icons/uk">
     
 </head>
 <body>
+    <!-- This is the header
+        It has three navigation bars; "first", "second", "third" -->
+
     <header>
         <div class="container">
             <nav class="first">
                 <h1 class="header-logo"><a href="#">Booking.com</a></h1>
-                    <ul class="links">
-                        <li><a href="#">KES</a></li>
-                        <li><a href="#">List your property</a></li>
-                        <li><a href="#"><span class="material-symbols-outlined help">help</span></a></li>
+                 <ul class="links">
+                    <li><a href="#">KES</a></li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/128/8363/8363075.png" class="uk"></li>
+                    <li><a href="#"><span class="material-symbols-outlined help">help</span></a></li>
+                    <li><a href="#">List your property</a></li>
+                    <div class="buttons">
                         <button>Register</button>
                         <button>Sign in</button>
-                    </ul>       
+                    </div>
+                    
+                </ul>       
             </nav>
             <nav class="second">
                 <ul class="links2">
                     <li class="stays">
                         <a href="#"><span class="material-symbols-outlined">bed</span>
-                        <span>Stays</span></a>
+                        <span class="word">Stays</span></a>
                     </li>
                     <li class="flights">
                         <span class="material-symbols-outlined">flight</span>
@@ -46,9 +57,56 @@
                     </li>
                 </ul>
             </nav>
+            <nav class="third">
+                <h1>Find your next stay</h1>
+                <p>Search low prices on hotels, homes and much more...</p>
+                <div class="tab">
+                    <div class="sub-tab">
+                        <span class="material-symbols-outlined">bed</span>
+                        <span class="text">Where are you going?</span>
+                    </div>
+                   <div class="sub-tab">
+                        <span class="material-symbols-outlined">calendar_month</span>
+                        <span class="text">Check-in date ___ Check-out date</span>
+
+                   </div>
+                   <sub class="sub-tab">
+                        <span class="material-symbols-outlined">person</span>
+                        <span class="text">2 adults . 0 children . 1 room</span>
+                   </sub>
+                   <button class="search">Search</button>
+                </div>
+            </nav>
         </div>
     </header>
-    <main></main>
+
+
+    <!-- This is the main content -->
+    <main>
+        <div class="container">
+            <section class="offers">
+                <h2 class="offer">Offers</h2>
+                <p class="promo">Promotion, deals and special offers for you</p>
+                <div class="image-container">
+                    <img src="https://r-xx.bstatic.com/xdata/images/xphoto/714x300/293799350.jpeg?k=8a6f4e24c37096fbdcd3c3d30c9f3dcea15ce35751448466decf791918012a64&o=">
+                    <div class="text-overlay">
+                        <p class="new-year">New year, new adventures</p>
+                        <p>Save 15% or more when you book and stay before 1 April</p>
+                        <p>2024</p>
+                        <button class="deals">Find Early 2024 Deals</button>
+                    </div>
+                </div>
+            </section>
+            <section class="explor-kenya">
+                <h2>Expore Kenya</h2>
+                <p class="popular">These popular destinations have a lot to offer</p>
+                <div class="popular-destinations">
+
+                </div>
+            </section>
+        </div>
+        
+    </main>
     <footer></footer>
    
 </body>
