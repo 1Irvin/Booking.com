@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    max-width: 20%;
 }
 .headeritem:hover{
   background-color:grey;
 }
 
-.headeritem:hover::before{
+.headeritem:hover:before{
     background-color: white;
 }
 
@@ -26,4 +27,10 @@
 }
 
 /*.h1under:hover{
+}*/
+
+.menu:hover{
+  background-color: grey;
 }
+
+.menu:hover::before
