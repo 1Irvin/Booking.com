@@ -270,6 +270,7 @@ main {
 }
 .trending-destinations {
     margin-top: 4.2rem;
+    width: 1000px;
 }
 .trending-destinations .popular-choices{
     color: grey;
@@ -281,12 +282,14 @@ main {
     gap: 1rem;
 }
 .grid-images img{
-    
+    width: 450px;
+    height: 300px;
 }
-.grid-images .grid-col-one {
-    grid-column: span 2;
+.grid-images .grid-col-one{
+    grid-column-start: 1;
+    grid-column-end: 2.5;
 }
-/* .grid-images .grid-col-two{
-    grid-column-start: 3;
+.grid-col-two{
+    grid-column-start: 2.5;
     grid-column-end: 4;
-} */
+}
