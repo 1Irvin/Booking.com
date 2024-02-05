@@ -16,7 +16,6 @@ header {
     height: 330px;
     align-items: center;
     padding-top: 0.2rem;
-    border: 2px solid green;
 }
 .container{
     min-width: 1100px;
@@ -269,3 +268,25 @@ main {
     grid-template-columns: repeat(4, 1fr);
     font-weight: bold;
 }
+.trending-destinations {
+    margin-top: 4.2rem;
+}
+.trending-destinations .popular-choices{
+    color: grey;
+    margin: 0.5rem 0 1.2rem;
+}
+.trending-destinations .grid-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.grid-images img{
+    
+}
+.grid-images .grid-col-one {
+    grid-column: span 2;
+}
+/* .grid-images .grid-col-two{
+    grid-column-start: 3;
+    grid-column-end: 4;
+} */
