@@ -269,27 +269,23 @@ main {
     font-weight: bold;
 }
 .trending-destinations {
-    margin-top: 4.2rem;
-    width: 1000px;
+    margin-top: 4.2rem;   
+
 }
 .trending-destinations .popular-choices{
     color: grey;
     margin: 0.5rem 0 1.2rem;
 }
-.trending-destinations .grid-images{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+.trending-destinations .destination-images{
+    display: flex;
+    flex-direction: row;
+    gap: 1.3rem;
 }
-.grid-images img{
-    width: 450px;
-    height: 300px;
-}
-.grid-images .grid-col-one{
-    grid-column-start: 1;
-    grid-column-end: 2.5;
-}
-.grid-col-two{
-    grid-column-start: 2.5;
-    grid-column-end: 4;
+.destination-images img{
+    flex: auto;
+    width: 300px;
+    height: 258px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    margin: 0 0 1rem;
 }
