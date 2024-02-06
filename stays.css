@@ -269,7 +269,8 @@ main {
     font-weight: bold;
 }
 .trending-destinations {
-    margin-top: 4.2rem;   
+    margin-top: 4.2rem;
+    position: relative;   
 
 }
 .trending-destinations .popular-choices{
@@ -288,4 +289,45 @@ main {
     border-radius: 0.5rem;
     object-fit: cover;
     margin: 0 0 1rem;
+}
+.trending-destinations .kenyan-names {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.35rem;
+    color: white;
+    font-weight: 700;
+
+}
+.kenyan-names img{
+    width: 30px;
+    height: 30px;
+    margin-top: 0.2rem;
+    border-radius: 0.3rem;
+}
+.trending-destinations .nairobi{
+    position: absolute;
+    top: 85px;
+    left: 15px;
+}
+.trending-destinations .mombasa{
+    position: absolute;
+    top: 85px;
+    right: 390px;
+}
+.trending-destinations .diani{
+    position: absolute;
+    top: 360px;
+    left: 15px
+}
+.trending-destinations .dubai {
+    position: absolute;
+    top: 360px;
+    left: 390px;
+}
+.trending-destinations .nakuru{
+    position: absolute;
+    top: 360px;
+    right: 230px;
 }
