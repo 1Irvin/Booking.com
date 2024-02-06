@@ -111,20 +111,33 @@ p2{
 }
 .checkbox{
     margin:0px;
-    padding-left:30px;
+    padding-left:50px;
     font-family: "Times new Roman";
+    
+    
+    
   
 }
-main{
-    display: flex;
-    margin-top: 3.5rem;
-}
+
 .brands{
-    padding-top: 3.5rem;
+    padding-top: 6.5rem;
     padding-left: 3.5rem;
     font-size: 0.7rem;
     line-height: 2.2rem;
 
 }
+.advert-info{
+    align:left;
+    padding-left: 50px;
+    padding-top: 5.5rem;
+    display:flex;
+    background-color:grey;
+    flex-direction:row;
+    justify-content:space-around;
+    height: 100px;
+   
+    
+}
+
 
 
