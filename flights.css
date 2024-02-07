@@ -1,8 +1,23 @@
 .header{
-  width: 100%;
-  height: 50px;
+    
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+
+}
+.first {
+  display: flex;
+  align-items: center;
+  gap:12px;
+}
+.kayak .letter {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.2em; 
 }
 
 body {
@@ -44,13 +59,10 @@ h1, h2, p, ul{
   background-color: white;
 }
 
-.text-overlay {
-  position: absolute;
-  top:20px;
-  left: 20px;
-  color: black;
-  line-height: 1.2rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-   
+.tagbox, 
+.pinbox,
+.settingsbox, 
+.pricebox, 
+.globebox{
+  border: 5px solid black;
 }
