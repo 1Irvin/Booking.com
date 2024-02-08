@@ -1,4 +1,4 @@
-h1, h2, p, ul{
+h1, h2, h3, p, ul{
     padding:0;
     margin:0;
     list-style:none;
@@ -407,4 +407,56 @@ main {
 .city-names .distance{
     font-size: 0.9rem;
     color: grey;
+}
+
+/* Get inspiration for your next trip */
+.inspiration-trip{
+    margin-top: 3.8rem;
+    max-width: 1100px;
+}
+.inspiration-trip .inspiration-images{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.2rem;
+    gap: 1rem;
+    
+}
+.celebration-video{
+    position: relative;
+}
+.inspiration-images .video {
+    width: 563px;
+    height: 380px;
+    border-radius: 0.5rem;
+}
+.inspiration-images .new-york{
+    position: absolute;
+    color: black;
+    bottom: 20px;
+    left: 15px:
+}
+.video:hover{
+    object-fit: cover;
+}
+.ryokans img {
+    width: 263px;
+    height: 240px;
+    border-radius: 0.5rem;
+    margin-bottom: 0.8rem;
+
+}
+.asia img {
+    width: 263px;
+    height: 240px;
+    border-radius: 0.5rem;
+    margin-bottom: 0.8rem;
+
+}
+.text1 {
+    font-weight: bold;
+    line-height: 1.5rem
+}
+.text2 {
+    color: grey;
+    margin-top: 0.2rem;
 }
