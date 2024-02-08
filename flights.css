@@ -26,16 +26,9 @@ body {
   }
 
 main{
-  align-content: center;
-  justify-content: center;
+  display: flex;
+  flex-direction: row;
 }
-
-.vertcle{
-  height: 100%;
-  width: 5px;
-  background-color: gray;
-}
-
 
 h1, h2, p, ul{
   padding:0;
@@ -64,5 +57,30 @@ h1, h2, p, ul{
 .settingsbox, 
 .pricebox, 
 .globebox{
-  border: 5px solid black;
+  border: 2px solid gray;
+  border-radius: 2%;
 }
+
+.h2under{
+  display: flex;
+  flex-direction: row;
+  gap:0.5rem;
+}
+
+
+.explore{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    
+}
+
+.johannesburg ,
+.capetown ,
+.zanzibar,
+.cities{
+  display:flex;
+  flex-direction:row ;
+  justify-content: space-evenly;
+}
+
