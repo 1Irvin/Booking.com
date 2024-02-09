@@ -431,9 +431,14 @@ main {
 }
 .inspiration-images .new-york{
     position: absolute;
-    color: black;
+    color: white;
     bottom: 20px;
-    left: 15px:
+    left: 15px;
+
+}
+.new-york .ring{
+    font-size: 0.95rem;
+    margin-top: 0.4rem;
 }
 .video:hover{
     object-fit: cover;
