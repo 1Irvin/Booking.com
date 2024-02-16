@@ -2,79 +2,50 @@
     margin:0;
     padding:0;
 }
-
-.navbar{
-    width:1200px;
-    height:75px;
-    margin:auto;
-}
-.navbar ul{
-    list-style:none;
-    background:white;
-    padding:0;
-    margin:10px;
-    
-    
-    
-    
-}
 .icon{
-    width:100px;
-    float:left;
-    height:70px;
-}
-.logo{
-    color:white;
-    font-family:arial;
-    padding-left:10px;
-    padding-top:30px;
-       
-}
-.menu{
-    width:400px;
-    float:right;
-    height:70px;
-    
-    
-}
-ul{
-    text-align:right;
-    display:flex;
-    
-    
-   
-    
-    
-    
-}
-ul li{
-    list-style:none;
-    margin-left:20px;
-    margin-top:27px;
-    font-size:14px;
-    opacity:80%;
-    
+    color:#fff;
+    padding-top:2rem;
+    padding-left:2rem;
+    font-size:20px;
 
 }
-header{
-    width:100%;
+.menu ul  {
+    display:flex;
+    flex-direction:row;
+    align-text:right;
+    justify-content:right;
+    list-style:none;
+    color:#fff;
+
+}
+
+header {
+    background-color: #003b95;
     height:400px;
-    background-color:blue;
+    width:100%;
+
+}
+.tet{
+    
+    padding-top:6rem;
+    
+    
 }
 p{
-  padding-top:100px;
-  color:white;
-  font-size:50px;
-  font-famiy:arial;
-  padding-left:20px;  
+    font-size:60px;
+    font-family:"Avenir Next",BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    color:#fff;
+    font-weight:bold;
+    padding-left:20px;
 }
+
 p2{
     padding-left:20px;
-    font-family:"Times New Roman", Times, serif;
+    font-family:"Avenir Next",BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
     font-size:30px;
     line-height:1.5;
     letter-spacing:0.5px;
-    display:
+    color:#fff;
 }
 .tab {
     display: flex;
@@ -83,7 +54,7 @@ p2{
     border: 2px solid orange;
     border-radius: 0.0rem;
     margin:65px;
-    
+     
   
 }
 .tab .sub-tab {
@@ -99,6 +70,7 @@ p2{
     width: 5vh;
     padding: 0 0.5rem;
     font-size: 1rem;
+    
 }
 .tab .search{
     font-size: 1.05rem;
@@ -131,7 +103,7 @@ p2{
     padding-left: 50px;
     padding-top: 5.5rem;
     display:flex;
-    background-color:grey;
+    background-color:#f5f5f5;
     flex-direction:row;
     justify-content:space-around;
     height: 100px;
@@ -173,8 +145,27 @@ h1{
     width: 100%;
     font-weight: bold;
     font-size: 1.4rem;
+    padding-top:1.5rem;
+    padding-left:1.5rem;
     
     
+}
+.nav ul  {
+    display:flex;
+    flex-direction:row;
+    list-style: none;
+    
+}
+.destinations a{
+    color:black;
+}
+.destinations :hover{
+    background-color:#ecebeb;;
+    border:6px solid #ecebeb;
+    border-radius:1.5rem;
+}
+.car{
+    line-height:2.1rem;
 }
 
 h2{
@@ -183,10 +174,96 @@ h2{
     
 }
 p1{
-    
+   padding-left:1.5rem; 
     
 }   
 li{
-    padding-left: 2.8rem;
+    padding-left: 2rem;
 }
 
+
+.money{
+    background-color: #01016E;
+    color:#fff;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.8rem;
+    line-height: 2rem;
+    
+    
+}
+input[type=text] {
+    border: 1px solid orange;
+    border-radius: 0.5rem;
+    outline: none;
+    box-sizing: border-box;
+    padding: 1.2rem;
+    width:300px;
+    
+    
+    
+}
+button[type=submit] {
+    padding: 1.2rem;
+    background:#6363F9;
+    border-radius: 0.5rem;
+    width:150px;
+
+}
+
+.property{
+    background-color:#0808AE;
+    width:100%;
+    height:100%;
+
+    
+}
+button[type=button] {
+    display:block;
+    margin:auto;
+    padding:0.4rem;
+    border:1px solid white;
+    border-radius: 0.2rem;
+    
+    
+}
+
+
+.navigation{
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+}
+.navigation :hover {
+    background-color:#757379  ;
+    border:5px solid #757379 ;
+    border-radius: 0.2rem;
+}
+.h{
+    width:100%;
+    height:100%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.links{
+    display:flex;
+    flex-direction:row;
+    line-height:2.2rem;
+    
+}
+
+.links1,.links2,.links3,.links4,.links5{
+    display:block;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:#fff;
+
+}
+.final{
+    text-align:center;
+    line-height:2.2rem;
+}
